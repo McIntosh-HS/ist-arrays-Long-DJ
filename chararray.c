@@ -2,14 +2,13 @@
 
 int main()
 {
-	char name[] = "First Last"; // edit this line
-	char user[N];               // create this line and replace N with however many elements you think is necessary
-	
-	// Prompt the user for their name
-	// Use scanf("%s", &user) to store the user's name
+	char name[] = "First name"; // edit this line
+    char user[20];    // create this line and replace N with however many elements you think is necessary
+    char userhe[25];    // create this line and replace N with however many elements you think is necessary
+    printf("What is your name baby ?\n");
 	scanf("%s", &user);
-
-	printf("You name is %s...\n", , );
+    scanf("%s", &userhe);
+	printf("My name is DJ, Your name is %s %s\n", user, userhe);
 
 	return 0;
 }
